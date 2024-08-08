@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    padding: 0 3vw;
+}
+#page1 {
+    height: 100vh ;
+    width: 100%;
+}
+
+#page11 {
+    height: 10%;
+    width: 100%;
+    padding: 0 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav1 {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#logo {
+    display: flex;
+    gap: 0.07vw;
+    transform: rotate(45deg);
+}
+.logoDiv {
+    height: 1.5vw ;
+    width: 0.8vw;
+    border-radius: 20px;
+    background-color: black;
+}
+.logoDiv2 {
+    transform: translateY(-28%);
+}
+#nav2 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2vw;
+}
+.nav2Text {
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+.dot {
+    font-size: 1.2vw;
+}
+#nav3 {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2vw;
+}
+#nav3 h2 {
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+#cta {
+    padding: 1vw 2.5vw;
+    border-radius: 50px;
+    background-color: #e1d1ff;
+}
+#page12 {
+    height: 45%;
+    width: 100%;
+    padding: 2.5vw 5vw;
+    display: flex;
+}
+#part1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+#part1 h2 {
+    font-size: 4.5vw;
+    line-height: 4.8vw;
+    font-weight: 425;
+}
+#part2 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    gap: 6vw;
+}
+#part21 h2 {
+    font-size: 2.7vw;
+    font-weight: 300;
+}
+#part22 h2 {
+    font-size: 1.7vw;
+    font-weight: 500;
+    line-height: 2vw;
+}
+#cta2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+    padding: 1vw 2.5vw;
+    border-radius: 50px;
+    background-color: black;
+}
+#cta2 h2  {
+    font-size: 1.1vw;
+    font-weight: 500;
+    color: white;
+}
+#cta2 i {
+    color: white;
+}
+#page13 {
+    height: 43%;
+    width: 100%;
+}
+#imgContainer {
+    height :100%;
+    width: 100%;
+    border-radius: 45px;
+}
+#imgContainer img {
+    height :100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 45px;
+}
+#page2 {
+    height: 80vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 15% 45% 40%;
+}
+#logo1 {
+    grid-area: 1/1/2/2;
+    padding-left: 3.5vw;
+    padding-top: 1vw;
+}
+#logo1 img {
+    height: 80%;
+    width: 70%;
+    object-fit: cover;
+}
+#logo2 {
+    grid-area: 1/2/2/3;
+    padding-left: 3.5vw;
+    padding-top: 1vw;
+}
+#logo2 img {
+    height: 80%;
+    width: 70%;
+    object-fit: cover;
+}
+#logo3 {
+    grid-area: 1/3/2/4;
+    padding-right: 2.5vw;
+    padding-top: 1vw;
+}
+#logo3 img {
+    height: 80%;
+    width: 130%;
+    scale: 0.7;
+    object-fit: cover;
+}
+#logo4 {
+    grid-area: 1/4/2/5;
+    padding-left: 3.5vw;
+    padding-top: 1vw;
+}
+#logo4 img {
+    height: 80%;
+    width: 75%;
+    object-fit: cover;
+}
+#logo5 {
+    grid-area: 1/5/2/6;
+    padding-left: 3.5vw;
+    padding-top: 1vw;
+}
+#logo5 img {
+    height: 80%;
+    width: 75%;
+    object-fit: cover;
+}
+#text {
+    grid-area: 2/1/3/6;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+}
+#text h1 {
+    font-size: 5vw;
+    font-weight: 400;
+    line-height: 5.3vw;
+}
+#text2 {
+    grid-area: 3/3/4/6;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4vw;
+}
+#text2 h2 {
+    font-size: 1.7vw;
+    font-weight: 500;
+    line-height: 2vw;
+    margin-right: 10vw;
+}
+#text2 span {
+    margin-top: 1.8vw;
+    font-size: 1.5vw;
+    font-weight: 800;
+}
+#faces {
+    grid-area: 3/1/4/3;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.3vw;
+}
+#faces span {
+    font-size: 3vw;
+    margin-left: 3vw;
+}
+.circle {
+    height: 7vw;
+    width: 7vw;
+    background-color: red;
+    border-radius: 50%;
+}
+.circle img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
